@@ -47,17 +47,10 @@ p {
 .services {
     display: list-item;
 }
-.video {
-    position: relative;
-    left: 100px;
-}
 h1 {
     text-align: center;
 }
 #submit {
     background-color: #b70f0a;
     color: white;
-}
-img { 
-    border: 0; 
 }
