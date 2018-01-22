@@ -1,0 +1,63 @@
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+    width: 980px;
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #d9d9d9;
+}
+.active {
+    color: white;
+    background-color: #b70f0a;
+}
+div {
+    font-family: 'Libre Franklin', sans-serif;
+}
+h1 {
+    font: bold;
+}
+h2 {
+    font-style: italic;
+    color: #b70f0a;
+    text-align: center;
+}
+p {
+    color: #b70f0a;
+    position: relative;
+}
+.black {
+    color: black;
+}
+.services {
+    display: list-item;
+}
+.video {
+    position: relative;
+    left: 100px;
+}
+h1 {
+    text-align: center;
+}
+#submit {
+    background-color: #b70f0a;
+    color: white;
+}
+img { 
+    border: 0; 
+}
