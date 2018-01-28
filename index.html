@@ -14,21 +14,25 @@
 
 <body>
     <div class="relative">
-        <nav>
-            <ul class="menu">
-                <li><a class=active href="#home">Home</a></li>
-                <li><a href="#services">My Services</a></li>
-                <li><a href="#contact">Contact Me</a></li>
-            </ul>
-        </nav>
+        <header>
+            <nav>
+                <ul class="menu">
+                    <li><a class=active href="#home">Home</a></li>
+                    <li><a href="#services">My Services</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </nav>
+        </header>
         <section id="home">
-            <p style="text-align:center;"><img id="homepage" src="home-page.jpg" alt="Lamps on the wall" height="392" width="980"></p>
             <h1><em><b>JULIA</b></em> BLIUSOVYCH</h1>
             <h2>Your Personal Translator</h2>
-            <img src="translator-portrait.jpg" alt="translator's portrait" height="440" width="429">
-            <h3>ENGLISH and SPANISH
+        </section>
+        <section id="homebody">
+            <img id="portrait" src="img/translator-portrait.jpg" alt="translator's portrait" height="440" width="429">
+            <h3 id="languages">ENGLISH and SPANISH
+                <br>
                 <br> into UKRAINIAN and RUSSIAN</h3>
-            <p>
+            <p class="red">
                 My name is <em><b>Julia Bliusovych</b></em> and I am a professional translator with over <em><b>5 years of great profesional experience</b></em>.
                 <br>
                 <br> Having graduated from the University, I realized that there is so much that I could do to make this world a better place! <em><b>Translation</b></em> is a <em><b>bridge between cultures</b></em> and I am incredibly lucky to help building
@@ -40,14 +44,15 @@
             </p>
         </section>
         <section id="services">
-            <p style="text-align:center;"><img src="my-services.jpg" alt="desk with keybord and coffee" height="307" width="980"></p>
             <h1>
                 MY <em><b>SERVICES</b></em>
             </h1>
             <h2>
                 I <em><b>AM</b></em> HERE TO ASSIST
             </h2>
-            <p style="text-align:center;" class="black">
+        </section>
+        <section class="translation-services">
+            <p id="translation-types">
                 If language barriers are getting in the way of your business or pleasure, you need a <em><b>personal translator</b></em>.
                 <br>
                 <br> Would you like to expand your <em><b>business into another country</b></em> but language barriers are hindering negotiations? Are you an <em><b>adventurer</b></em> who would like to go off the beaten path where tour guides won’t go,
@@ -56,72 +61,88 @@
                 <br> Perhaps you just have an <em><b>important meeting</b></em> with someone who speaks another language and there is a lot riding on the outcome. Whatever the reason, I can provide you with <em><b>professional translation services</b></em>                for all of your occasions.
             </p>
             <ul class="services">
-                <li class="services">Translation</li>
-                <li class="services">Interpreting</li>
-                <li class="services">Proofreading</li>
-                <li class="services">Localization</li>
-                <li class="services">Website Translation</li>
+                <li class="services">- Translation</li>
+                <li class="services">- Interpreting</li>
+                <li class="services">- Proofreading</li>
+                <li class="services">- Localization</li>
+                <li class="services">- Website Translation</li>
             </ul>
-            <h3 style="text-align:center;"><em><b>Successful</b></em> projects featuring: </h3>
-            <p style="text-align:center;">
-                <a href="http://www.ebrd.com/home">
-            <img src="ebrd-logo.png" alt="EBRD website" width="150" height="92">
-        </a>
-                <a href="http://www.egis-ukraina.com.ua/">
-            <img src="egis-logo.gif" alt="Egis website" width="150" height="92">
-        </a>
-                <a href="http://www.onurgroup.com/">
-            <img src="onur-logo.png" alt="ONUR website" width="150" height="92">
-        </a>
-                <a href="http://city-adm.lviv.ua/">
-            <img src="lmr-logo.png" alt="LMR website" width="150" height="92">
-        </a>
-            </p>
-            <p style="text-align:center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/cXNTArhA0Jg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
         </section>
+        <h3 style="text-align:center;"><em><b>Successful</b></em> projects featuring: </h3>
+        <p id="partners">
+            <a href="http://www.ebrd.com/home">
+            <img src="img/ebrd-logo.png" alt="EBRD website" width="150" height="92">
+        </a>
+            <a href="http://www.egis-ukraina.com.ua/">
+            <img src="img/egis-logo.gif" alt="Egis website" width="150" height="92">
+        </a>
+            <a href="http://www.onurgroup.com/">
+            <img src="img/onur-logo.png" alt="ONUR website" width="150" height="92">
+        </a>
+            <a href="http://city-adm.lviv.ua/">
+            <img src="img/lmr-logo.png" alt="LMR website" width="150" height="92">
+        </a>
+        </p>
+        <p id="video-feed"><iframe width="560" height="315" src="https://www.youtube.com/embed/cXNTArhA0Jg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
         <section id="contact">
-            <p style="text-align:center;"><img src="contacts.jpg" alt="brickwall" height="220" width="980"></p>
             <h2>FEEL <em><i>FREE</i></em> TO <em><b>CONTACT</b></em> ME</h2>
-            <form method="POST" action="https://formspree.io/julia.bliusovych@gmail.com">
-                <label>Your Name *
-        <input type="text" name="name" placeholder="Your Name"
-  required>
-    </label>
-                <br>
-                <label>Phone Number
-        <input type="tel" name="tel" placeholder="123-456-7890" title="123-456-7890" pattern="[\d]{10}"> 
-    </label>
-                <br>
-                <label>Email Address *
-        <input type="email" name="email"
-  required>
-    </label>
-                <br>
-                <label>Your Message
-        <input type="text" name="message">
-    </label>
-                <br>
-                <input id="submit" type="submit" value="SEND">
-            </form>
-            <br>
-            <p id="footer">
-                &copy; Julia Bliusovych
-                <br> &#x1F310; Working Worldwide. All Rights Reserved
-            </p>
-            <p style="text-align:right;" id="social">
-                <a href="https://www.facebook.com/julia.bliusovych">
-            <img src="facebook-icon.png" alt="Facebook profile page" width="74" height="74">
-        </a>
-                <a href="https://www.linkedin.com/in/julia-bliusovych-1101226b/">
-            <img src="linkedin-icon.ico" alt="Linkedin profile page" width="74" height="74">
-        </a>
-                <a href="https://www.instagram.com/julia81750/">
-            <img src="instagram-icon.png" alt="Instagram profile page" width="74" height="74">
-        </a>
-            </p>
-            <p style="text-align:center;"><img src="footer.png" alt="footer" height="207" width="980"></p>
         </section>
-    </div>
+        <div class="container" <form method="POST" action="https://formspree.io/julia.bliusovych@gmail.com">
+            <div class="row">
+                <div class="col-25">
+                    <label for="name">Your Name *</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="name" name="name" placeholder="Your Name..." required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="tel">Phone Number</label> </div>
+                <div class="col-75">
+                    <input type="tel" id="tel" name="tel" placeholder="123-456-7890" title="123-456-7890" pattern="[\d]{10}">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="email">Email Address * </label>
+                </div>
+                <div class="col-75">
+                    <input type="email" id="email" name="email" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="message">Your Message </label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="message" name="message"></div>
+            </div>
+            <div class="row">
+                <input id="submit" type="submit" value="SEND">
+                </div>
+                </form>
+            </div>
+            <br>
+            <footer class="footer">
+                <p id="copyright">
+                    &copy; Julia Bliusovych
+                    <br>&#x1F310; Working Worldwide. All Rights Reserved
+                </p>
+                <p id="social">
+                    <a href="https://www.facebook.com/julia.bliusovych">
+            <img id="facebook" src="img/facebook-icon.png" alt="Facebook profile page" width="74" height="74">
+        </a>
+                    <a href="https://www.linkedin.com/in/julia-bliusovych-1101226b/">
+            <img id="linkedin" src="img/linkedin-icon.ico" alt="Linkedin profile page" width="74" height="74">
+        </a>
+                    <a href="https://www.instagram.com/julia81750/">
+            <img id="instagram" src="img/instagram-icon.png" alt="Instagram profile page" width="74" height="74">
+        </a>
+                </p>
+            </footer>
+            </section>
+        </div>
 </body>
 
 </html>
