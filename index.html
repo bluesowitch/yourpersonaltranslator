@@ -51,7 +51,7 @@
                 I <em><b>AM</b></em> HERE TO ASSIST
             </h2>
         </section>
-        <section class="translation-services">
+        <div class="translation-services">
             <p id="translation-types">
                 If language barriers are getting in the way of your business or pleasure, you need a <em><b>personal translator</b></em>.
                 <br>
@@ -67,7 +67,7 @@
                 <li class="services">- Localization</li>
                 <li class="services">- Website Translation</li>
             </ul>
-        </section>
+        </div>
         <h3 style="text-align:center;"><em><b>Successful</b></em> projects featuring: </h3>
         <p id="partners">
             <a href="http://www.ebrd.com/home">
@@ -87,62 +87,63 @@
         <section id="contact">
             <h2>FEEL <em><i>FREE</i></em> TO <em><b>CONTACT</b></em> ME</h2>
         </section>
-        <div class="container" <form method="POST" action="https://formspree.io/julia.bliusovych@gmail.com">
-            <div class="row">
-                <div class="col-25">
-                    <label for="name">Your Name *</label>
+        <div class="container">
+            <form method="POST" action="https://formspree.io/julia.bliusovych@gmail.com">
+                <div class="row">
+                    <div class="col-25">
+                        <label for="name">Your Name *</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="name" name="name" placeholder="Your Name..." required>
+                    </div>
                 </div>
-                <div class="col-75">
-                    <input type="text" id="name" name="name" placeholder="Your Name..." required>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="tel">Phone Number</label> </div>
+                    <div class="col-75">
+                        <input type="tel" id="tel" name="tel" placeholder="123-456-7890" title="123-456-7890" pattern="[\d]{10}">
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-25">
-                    <label for="tel">Phone Number</label> </div>
-                <div class="col-75">
-                    <input type="tel" id="tel" name="tel" placeholder="123-456-7890" title="123-456-7890" pattern="[\d]{10}">
+                <div class="row">
+                    <div class="col-25">
+                        <label for="email">Email Address * </label>
+                    </div>
+                    <div class="col-75">
+                        <input type="email" id="email" name="email" required>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-25">
-                    <label for="email">Email Address * </label>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="message">Your Message </label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="message" name="message"></div>
                 </div>
-                <div class="col-75">
-                    <input type="email" id="email" name="email" required>
+                <div class="row">
+                    <input id="submit" type="submit" value="SEND">
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-25">
-                    <label for="message">Your Message </label>
-                </div>
-                <div class="col-75">
-                    <input type="text" id="message" name="message"></div>
-            </div>
-            <div class="row">
-                <input id="submit" type="submit" value="SEND">
-                </div>
-                </form>
-            </div>
-            <br>
-            <footer class="footer">
-                <p id="copyright">
-                    &copy; Julia Bliusovych
-                    <br>&#x1F310; Working Worldwide. All Rights Reserved
-                </p>
-                <p id="social">
-                    <a href="https://www.facebook.com/julia.bliusovych">
+            </form>
+        </div>
+        <br>
+        <footer class="footer">
+            <p id="copyright">
+                &copy; Julia Bliusovych
+                <br>&#x1F310; Working Worldwide. All Rights Reserved
+            </p>
+            <p id="social">
+                <a href="https://www.facebook.com/julia.bliusovych">
             <img id="facebook" src="img/facebook-icon.png" alt="Facebook profile page" width="74" height="74">
         </a>
-                    <a href="https://www.linkedin.com/in/julia-bliusovych-1101226b/">
+                <a href="https://www.linkedin.com/in/julia-bliusovych-1101226b/">
             <img id="linkedin" src="img/linkedin-icon.ico" alt="Linkedin profile page" width="74" height="74">
         </a>
-                    <a href="https://www.instagram.com/julia81750/">
+                <a href="https://www.instagram.com/julia81750/">
             <img id="instagram" src="img/instagram-icon.png" alt="Instagram profile page" width="74" height="74">
         </a>
-                </p>
-            </footer>
-            </section>
-        </div>
+            </p>
+        </footer>
+
+    </div>
 </body>
 
 </html>
