@@ -1,4 +1,4 @@
-$('#submit').click(function(ev){
+$('#submit-message').click(function(ev) {
     if ($('form')[0].checkValidity()) {
         ev.preventDefault();
         $.ajax({
