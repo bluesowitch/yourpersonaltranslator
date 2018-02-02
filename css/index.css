@@ -35,7 +35,6 @@ li a {
     text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 
 li a:hover {
     background-color: #d9d9d9;
@@ -208,7 +207,6 @@ input[type=submit]:hover {
     margin-top: 6px;
 }
 
-/* Clear floats after the columns */
 
 .row:after {
     content: "";
