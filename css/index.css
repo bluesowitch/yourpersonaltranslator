@@ -235,7 +235,7 @@ input[type=submit]:hover {
 }
 .footer {
      display: flex;
-    background: url('/img/footer.png');
+    background: url('img/footer.png');
     background-size: cover;
     width: 980px;
     height: 207px;
