@@ -167,8 +167,9 @@ input[type=submit] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    float: right;
     margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 input[type=submit]:hover {
