@@ -14,6 +14,7 @@ body {
     position: fixed;
     margin-top: 0px;
     padding-top: 0px;
+    max-width: 980px;
 }
 
 li a:hover {
@@ -66,7 +67,7 @@ h2 {
 }
 
 .red {
-    color: #b70f0a;
+    color: black;
     margin: 40px 40px 40px 40px;
     text-align: justify;
 }
@@ -178,7 +179,7 @@ input[type=submit]:hover {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
-    margin: 0px 70px 40px 0px;
+    margin: 0px 0px 40px 0px;
 }
 
 .col-25 {
@@ -194,7 +195,7 @@ input[type=submit]:hover {
 }
 
 #form-note {
-    margin: 0px 450px 40px 45px;
+    margin: 0px 45px 40px 45px;
 }
 .row:after {
     content: "";
