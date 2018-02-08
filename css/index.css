@@ -10,6 +10,7 @@ body {
     justify-content: center;
     text-decoration: none;
 }
+
 .navbar {
     position: fixed;
     margin-top: 0px;
@@ -107,6 +108,7 @@ h2 {
 h3 {
     text-align: center;
 }
+
 #partners {
     display: flex;
     justify-content: space-around;
@@ -168,8 +170,7 @@ input[type=submit] {
     border-radius: 4px;
     cursor: pointer;
     margin-top: 20px;
-    display: flex;
-    justify-content: flex-end;
+    text-align: center;
 }
 
 input[type=submit]:hover {
@@ -198,22 +199,27 @@ input[type=submit]:hover {
 #form-note {
     margin: 0px 45px 40px 45px;
 }
+
 .row:after {
     content: "";
     display: table;
     clear: both;
 }
+
 #message {
     height: 200px;
 }
+
 #email {
     width: 100%;
 }
+
 #tel {
     width: 100%;
 }
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+
 @media (max-width: 600px) {
     .col-25,
     .col-75,
@@ -224,6 +230,14 @@ input[type=submit]:hover {
     }
     .translation-services {
         flex-wrap: wrap;
+    }
+    #portrait {
+        width: 100%;
+        margin-left: 0;
+    }
+    #video-feed {
+        width: 100%;
+        margin-left: 0;
     }
 }
 
@@ -239,28 +253,30 @@ input[type=submit]:hover {
     color: black;
     justify-content: space-around;
 }
+
 #copyright {
     margin-left: 70px;
     justify-content: center;
 }
+
 #social {
     justify-content: space-between;
 }
+
 #facebook {
     width: 74px;
     height: 74px;
     margin-left: 75px;
 }
+
 #linkedin {
     width: 74px;
     height: 74px;
     margin-left: 75px;
 }
+
 #instagram {
     width: 74px;
     height: 74px;
     margin-left: 75px;
 }
-
-
-
